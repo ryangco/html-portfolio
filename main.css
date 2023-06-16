@@ -1,0 +1,13 @@
+.site-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .nameButton{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+div{
+    text-align: center;
+}
