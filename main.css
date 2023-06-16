@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .header{
     display: flex;
     justify-content: space-around;
@@ -7,18 +11,16 @@
     top: 0;
     box-sizing: border-box;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    z-index: 200;
+    height: 3rem;
 }
 
 .header .nameButton{
     background-color:rgb(114, 216, 114);
     color: white;
-    padding: 1%;
     border-radius: 0.8rem;
     border: 1px solid red;
     text-decoration: none;
-
 }
 
 .header .link *{
@@ -27,4 +29,6 @@
 
 .hero{
     height: 100vh;
+    position: relative;
+    margin-top: 3rem;
 }
