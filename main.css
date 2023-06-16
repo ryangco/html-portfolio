@@ -1,13 +1,30 @@
-.site-header{
+.header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
 .header .nameButton{
-    display: flex;
-    height: 100px;
-    align-items: center;
+    background-color:rgb(114, 216, 114);
+    color: white;
+    padding: 1%;
+    border-radius: 0.8rem;
+    border: 1px solid red;
+    text-decoration: none;
+
 }
-div{
-    text-align: center;
+
+.header .link *{
+    text-decoration: none;
+}
+
+.hero{
+    height: 100vh;
 }
