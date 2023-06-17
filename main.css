@@ -44,6 +44,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: xx-large;
+    gap: 10%;
 }
 .container span{
     color: #FBFFDC;
@@ -51,7 +52,6 @@ body{
 
 img{
     width: 300px;
-    margin-left: 4rem;
 }
 .waves {
     position: relative;
