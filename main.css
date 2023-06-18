@@ -58,6 +58,12 @@ body{
 img{
     width: 300px;
 }
+.logo{
+    display: block;
+    width: auto;
+    height: 30px;
+}
+
 .waves {
     position: relative;
     top: 0;
