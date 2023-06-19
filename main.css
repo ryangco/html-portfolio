@@ -91,13 +91,15 @@ img{
 }
 .skills .container{
     display: flex;
-    justify-content: space-evenly;
+    flex-flow: row wrap;
     gap: 2rem;
 }
 .skills .skills-title{
     text-align: center;
 }
-.skills{
-    display: flex;
-    flex-flow: column wrap;
+.lang{
+    border: 2px solid red;
+    padding: 2px;
+    margin: 2rem 0;
+    /* flex-basis: 200px; */
 }
