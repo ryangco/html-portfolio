@@ -55,13 +55,15 @@ body{
     color: #FBFFDC;
 }
 
-img{
+.profilePhoto{
     width: 300px;
+
 }
 .logo{
     display: block;
     width: auto;
     height: 30px;
+    margin: auto;
 }
 
 .waves {
@@ -91,15 +93,29 @@ img{
 }
 .skills .container{
     display: flex;
-    flex-flow: row wrap;
-    gap: 2rem;
+    justify-content: space-evenly;
 }
+
+.lang-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border: 5px solid grey;
+    border-radius: 30px;
+}
+.lang-container .title{
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+}
+
 .skills .skills-title{
     text-align: center;
 }
 .lang{
-    border: 2px solid red;
     padding: 2px;
-    margin: 2rem 0;
-    /* flex-basis: 200px; */
+    flex: 1;
+    text-align: center;
+    background-color: grey;
+    border: 2px solid red;
 }
